@@ -1,0 +1,146 @@
+.footer {
+    background: #092433;
+    padding: 80px 5.19391892% 76.88px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logos-logo {
+    margin-bottom: 13.15px;
+}
+
+.footer__logos-text {
+    margin: 0;
+    padding: 0;
+}
+
+.list-description {
+    /* display: flex;
+    list-style-type: none;
+    width: 674px;
+    justify-content: space-between; */
+    display: grid;
+    width: 674px;
+    grid-template-columns: repeat(auto-fill, minmax(114px, max-content));
+    list-style-type: none;
+    justify-content: space-between;
+    margin-bottom: 120.88px;
+    padding: 0;
+}
+
+.list-description__li {
+    max-width: 114px; 
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.5s opacity ease-in-out;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.list-description__li:hover {
+    opacity: 0.6;
+}
+
+.list-network {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.list-network__li {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.5s opacity ease-in-out;
+    margin-right: 20px;
+}
+
+.list-network__li:hover {
+    opacity: 0.6;
+}
+
+.list-network__li:last-of-type {
+    margin-right: 0;
+}
+
+.license {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .list-description {
+        width: 474px;
+    }
+}
+
+@media (max-width: 910px) {
+    .list-description {
+        width: 344px;
+    }
+    .footer {
+        padding: 80px 3.19391892% 76.88px 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 620px) {
+    .footer {
+        padding: 35.14px 18px 32px 15px;
+        display: block;
+    }
+
+    .footer__logos-logo {
+        width: 93.2px;
+        height: 39.53px;
+        margin-bottom: 14.21px;
+    }
+
+    .footer__logos-text {
+        display: none;
+    }
+
+    .footer__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .list-description {
+        row-gap: 12px;
+        width: 257px;
+        margin: 32.87px 0 48px;
+    }
+
+    .list-description__li {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .footer__content ul:nth-child(1) {
+        order: 2;
+    }
+
+    .footer__content ul:nth-child(2) {
+        order: 1;
+    }
+
+    .license {
+        display: block;
+    }
+
+    .license__text {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+        opacity: 0.5;
+        padding: 0;
+        margin: 0 0 4px;
+    }
+
+    .license__text:last-of-type {
+        margin: 0;
+    }
+}

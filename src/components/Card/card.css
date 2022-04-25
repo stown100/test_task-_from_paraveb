@@ -1,0 +1,51 @@
+.card {
+    max-width: 295px;
+    border: 1px solid #E8E8E8;
+}
+
+.card__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.65);
+    padding: 16px 46px 16px 26px;
+    margin: 0;
+    border-bottom: 1px solid #E8E8E8;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.card__text {
+    padding: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.65);
+    margin: 24px 24px 16px 26px;
+}
+
+.card__criteria {
+    display: flex;
+    margin: 16px auto 24px 26px;
+    justify-content: flex-start;
+}
+
+.card-author {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    background: #092433;
+    border-radius: 10px;
+    padding: 0 8px;
+    margin: 0;
+}
+
+.card-date {
+    margin: 0;
+    padding: 0 8px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #595959;
+}

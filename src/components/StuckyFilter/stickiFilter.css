@@ -1,0 +1,15 @@
+.form {
+    margin: 60px auto 24px;
+    padding: 0 17.6648649%;
+}
+
+.form__input {
+    padding: 10px 15.34px 10px 10px;
+}
+
+.first-input {
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background: url("../../images/labelInput.svg") no-repeat calc(100% - 15.34px) center;
+    width: 274.59px;
+}

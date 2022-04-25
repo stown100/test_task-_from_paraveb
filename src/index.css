@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Manrope', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #FFFFFF;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@import url(components/Header/header.css);
+@import url(components/Preview/preview.css);
+@import url(components/StuckyFilter/stickiFilter.css);
+@import url(components/Cards/cards.css);
+@import url(components/Card/card.css);
+@import url(components/Footer/footer.css);

@@ -1,0 +1,77 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 138px;
+}
+
+.header__content-telephone-link-mobile {
+    display: none;
+}
+
+.header__content-email-link-mobile {
+    display: none;
+}
+
+.header__content-telephone {
+    margin-right: 44px;
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.5s opacity ease-in-out;
+}
+
+.header__content-telephone:hover {
+    opacity: 0.6;
+}
+
+.header__content-telephone-link {
+    color: rgba(0, 0, 0, 0.65);
+    text-decoration: none;
+}
+
+.header__content-email {
+    color: rgba(0, 0, 0, 0.65);
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.5s opacity ease-in-out;
+}
+
+.header__content-email:hover {
+    opacity: 0.6;
+}
+
+.header__content-email-link {
+    color: rgba(0, 0, 0, 0.65);
+    text-decoration: none;
+}
+
+@media (max-width: 750px) {
+    .header {
+        padding: 32px 3.19391892%; 
+    }
+}
+
+@media (min-width: 320px) and (max-width: 620px) {
+    .header {
+        padding: 18.49px 17px 12.22px 15px; 
+    }
+
+    .header__content-telephone-link {
+        display: none;
+    }
+
+    .header__content-telephone-link-mobile {
+        display: block;
+    }
+
+    .header__content {
+        display: flex;
+    }
+
+    .header__content-email-link {
+        display: none;
+    }
+
+    .header__content-email-link-mobile {
+        display: block;
+    }
+}
