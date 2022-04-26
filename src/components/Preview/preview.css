@@ -80,3 +80,13 @@
         line-height: 19px;
     }
 }
+
+@media (min-width: 320px) and (max-width: 390px) {
+    .preview__title {
+        margin-left: 0; 
+    }
+
+    .preview__text {
+        margin-left: 0;
+    }
+}

@@ -11,7 +11,7 @@ function Card({ author, source, description, content, title, url, publishedAt, u
             </p>
             <div className='card__criteria'>
                 <span className='card-author'>
-                    {author}
+                    {author ? author : 'Author is unknown'}
                 </span>
                 <span className='card-date'>
                     {publishedAt}

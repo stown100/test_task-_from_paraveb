@@ -1,6 +1,8 @@
 .card {
     max-width: 295px;
     border: 1px solid #E8E8E8;
+    position: relative;
+    padding-bottom:50px;
 }
 
 .card__title {
@@ -29,6 +31,8 @@
     display: flex;
     margin: 16px auto 24px 26px;
     justify-content: flex-start;
+    position: absolute;
+    bottom: 0;
 }
 
 .card-author {
