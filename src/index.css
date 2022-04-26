@@ -15,8 +15,10 @@ code {
 
 
 @import url(components/Header/header.css);
+@import url(components/Flickity/flickity.css);
 @import url(components/Preview/preview.css);
 @import url(components/StuckyFilter/stickiFilter.css);
 @import url(components/Cards/cards.css);
 @import url(components/Card/card.css);
 @import url(components/Footer/footer.css);
+@import url(components/SimpleSwiper/simpleSwiper.css);

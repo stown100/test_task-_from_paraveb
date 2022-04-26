@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import flickity from 'flickity';
 
 function Preview() {
     return (
@@ -9,11 +10,11 @@ function Preview() {
                 от индивидуальных предпринимателей до крупных международных компаний.
                 Более 20 000 клиентов по всему миру доверяют нам.
             </p>
-            <div className='previews__switches'>
+            {/* <div className='previews__switches'>
                 <span className='previews__switche previews__switche_active'></span>
                 <span className='previews__switche previews__switche_active'></span>
                 <span className='previews__switche previews__switche_active'></span>
-            </div>
+            </div> */}
         </div>
     )
 }
