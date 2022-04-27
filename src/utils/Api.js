@@ -3,6 +3,7 @@ class Api {
         this.url = url;
     }
 
+    // get запрос на сервер
     getInitialCards() {
         return fetch(this.url, {
             method: 'GET',

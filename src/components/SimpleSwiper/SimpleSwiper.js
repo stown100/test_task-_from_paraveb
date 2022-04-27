@@ -8,7 +8,6 @@ const SimpleSwiper = () => {
     const pagination = {
         clickable: true,
         renderBullet: function (index, className) {
-            console.log(className)
           return '<span class="' + className + '">' + "</span>";
         },
       };
@@ -21,8 +20,8 @@ const SimpleSwiper = () => {
             navigation
             pagination={pagination}
             // scrollbar={{ draggable: true }}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log('slide change')}
+            // onSwiper={(swiper) => console.log(swiper)}
+            // onSlideChange={() => console.log('slide change')}
         >
             <SwiperSlide>
                 <Preview />

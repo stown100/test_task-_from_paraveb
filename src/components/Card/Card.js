@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card({ author, source, description, content, title, url, publishedAt, urlToImage }) {
+function Card({ author, content, title, publishedAt }) {
     return (
         <div className='card'>
             <h5 className='card__title' title={title}>
@@ -11,7 +11,8 @@ function Card({ author, source, description, content, title, url, publishedAt, u
             </p>
             <div className='card__criteria'>
                 <span className='card-author'>
-                    {author ? author : 'Author is unknown'}
+                    {/* Если автора нет, присваиваю полу строку */}
+                    {author ? author : author = 'Author is unknown'}
                 </span>
                 <span className='card-date'>
                     {publishedAt}

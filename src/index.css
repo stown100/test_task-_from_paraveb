@@ -15,7 +15,6 @@ code {
 
 
 @import url(components/Header/header.css);
-@import url(components/Flickity/flickity.css);
 @import url(components/Preview/preview.css);
 @import url(components/StuckyFilter/stickiFilter.css);
 @import url(components/Cards/cards.css);
