@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+Тестовый лендинг написанный на React.js.
+Слайдер подключен с помощью библиотеки Swiper.
+Данный для карточек взяты с сервера с помощью fetch - get запрос.
+Фильтрация карточек в соответствии с условием производится на клиенте.
+Вся логика описана в App.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Технологии: React.js, HTML, CSS, Flex, Grid, ООП, React Hooks, Fetch, 
 
-## Available Scripts
+Проект запускается с помощью команды:
 
-In the project directory, you can run:
+npm start
+Запускает приложение в режиме разработки.
+Откройте http://localhost:3000, чтобы просмотреть его в браузере.
 
-### `npm start`
+Страница перезагрузится, если вы внесете изменения.
+Вы также можете увидеть любые ошибки lint в консоли при помощи команды:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+npm test
+Запускает тестовый запуск в режиме интерактивного просмотра.
+См. Раздел о running tests для получения дополнительной информации.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm run build
+Создает приложение для производства в папке "сборка".
+Он правильно связывает реакцию в производственном режиме и оптимизирует сборку для достижения наилучшей производительности.
 
-### `npm test`
+Сборка уменьшена, а имена файлов включают хэши.
+Ваше приложение готово к развертыванию!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+См. Раздел о deployment для получения дополнительной информации.
 
-### `npm run build`
+npm run eject
+** Примечание: это односторонняя операция. Как только вы "катапультируетесь", вы не сможете вернуться!**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Если вас не устраивает инструмент сборки и выбор конфигурации, вы можете "извлечь` его в любое время. Эта команда удалит зависимость от одной сборки из вашего проекта.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Вместо этого он скопирует все файлы конфигурации и транзитивные зависимости (webpack, Babel, ESLint и т.д.) Прямо в ваш проект, чтобы у вас был полный контроль над ними. Все команды, кроме "извлечь", будут по-прежнему работать, но они будут указывать на скопированные сценарии, чтобы вы могли их настроить. На данный момент вы предоставлены сами себе.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Вам никогда не нужно использовать "извлечение`. Кураторский набор функций подходит для небольших и средних развертываний, и вы не должны чувствовать себя обязанным использовать эту функцию. Однако мы понимаем, что этот инструмент не был бы полезен, если бы вы не могли настроить его, когда будете готовы к этому.
